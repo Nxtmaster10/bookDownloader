@@ -21,6 +21,12 @@ def open_mail(file):
 
 
 if __name__ == '__main__':
+    if not os.path.exists('input'):
+        os.makedirs('input')
+    if not os.path.exists('output'):
+        os.makedirs('output')
+    if not os.path.exists('drm_removed'):
+        os.makedirs('drm_removed')
     input_folder = os.path.abspath("input")
     to_mail_folder = os.path.abspath("output")
     user_key = open(os.path.abspath("adobekey_1.der"), 'rb').read()  # Adobe key from running adobekey.py
