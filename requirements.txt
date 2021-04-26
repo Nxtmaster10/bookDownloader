@@ -1,0 +1,7 @@
+bz2file==0.98
+ciseau==1.0.1
+epub==0.5.2
+epub-conversion==1.0.15
+numpy==1.19.4
+pycryptodome==3.9.9
+pywin32==300

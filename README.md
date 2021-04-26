@@ -11,7 +11,8 @@ remove the DRM from the book.
 
 # Run the script
 
-If this is the first time you use the script you need to run [adobekey.py](./adobekey.py).
+If this is the first time you use the script you need to run `pip install -r requirements.txt`
+and [adobekey.py](./adobekey.py) using `python3 adobekey.py`.
 
 Set your kindle mail in [main.py](./main.py) on line 15. You obtain from this
 email [here](https://www.amazon.de/hz/mycd/digital-console/alldevices) by clicking on your device and then on E-Mail.
